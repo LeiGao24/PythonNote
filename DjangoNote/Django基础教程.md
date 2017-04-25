@@ -1,3 +1,13 @@
+<!-- MarkdownTOC -->
+
+- [Django环境搭建](#django环境搭建)
+- [Django基本命令](#django基本命令)
+- [Django视图与网址](#django视图与网址)
+- [Django模板 templates](#django模板-templates)
+- [Django 模板的标签](#django-模板的标签)
+- [Django CRUD操作](#django-crud操作)
+
+<!-- /MarkdownTOC -->
 
 ###Django环境搭建
 - 安装python
@@ -71,4 +81,7 @@ urlpatterns = [
     url(r'^$',learn_views.index2)
 ]
 ```
+
+###Django 模板的标签
+
 ###Django CRUD操作
