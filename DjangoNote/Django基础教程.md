@@ -83,5 +83,9 @@ urlpatterns = [
 ```
 
 ###Django 模板的标签
+- 显示一个字符串在模板页面
+- for标签的使用
+    + 传递一个list
+    + 传递一个dictionary
 
 ###Django CRUD操作

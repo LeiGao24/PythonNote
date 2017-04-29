@@ -14,12 +14,17 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
-from django.contrib import admin
+# from django.contrib import admin
 from learn import views as learn_views
+# from employee import views as employee_views
 
 urlpatterns = [
-	url(r'^$',learn_views.index2),
-	url(r'^$',learn_views.index),
-    url(r'^admin/', admin.site.urls),
-
+    url(r'^$',learn_views.form),
+    url(r'^check$',learn_views.check),
+    # url(r'^$',employee_views.mysqldb),
+ #    url(r'^show/$',learn_views.showdic),
+ #    url(r'^show/$',learn_views.show),
+	# url(r'^$',learn_views.index2),
+	# url(r'^$',learn_views.index),
+ #    url(r'^admin/', admin.site.urls),
 ]
