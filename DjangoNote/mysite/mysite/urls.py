@@ -19,6 +19,7 @@ from learn import views as learn_views
 # from employee import views as employee_views
 
 urlpatterns = [
+<<<<<<< HEAD
     url(r'^$',learn_views.form),
     url(r'^check$',learn_views.check),
     # url(r'^$',employee_views.mysqldb),
@@ -27,4 +28,11 @@ urlpatterns = [
 	# url(r'^$',learn_views.index2),
 	# url(r'^$',learn_views.index),
  #    url(r'^admin/', admin.site.urls),
+=======
+    url(r'^show/$',learn_views.showdic),
+    url(r'^show/$',learn_views.show),
+	url(r'^$',learn_views.index2),
+	url(r'^$',learn_views.index),
+    url(r'^admin/', admin.site.urls),
+>>>>>>> origin/master
 ]

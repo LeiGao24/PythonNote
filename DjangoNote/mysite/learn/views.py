@@ -18,6 +18,7 @@ def show(request):
 
 def showdic(request):
 	dic = {'乔峰':'降龙十八掌','段誉':'北冥神功','虚竹':'天山六阳掌'}
+<<<<<<< HEAD
 	return render(request,"show.html",{'dic':dic})
 
 def form(request):
@@ -33,3 +34,6 @@ def check(request):
 	pwd = request.POST['pwd']
 	
 	return HttpResponse('user = {0},pwd = {1}'.format(user,pwd))
+=======
+	return render(request,"show.html",{'dic':dic})
+>>>>>>> origin/master
